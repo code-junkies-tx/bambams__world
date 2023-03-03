@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    BamBam
+{% endblock %}
+
+{% block css_styles %}
+    <link rel="stylesheet" href="{% static "bb_app/index.css" %}">
+{% endblock %}
+
+
+{% block context %}
+    <div class="mainDiv">
+        <h1>BamBam's World</h1>
+        <img src="{% static 'images/bb-img.jpeg' %}" alt="bb-img">
+    </div>
+
+{% endblock %}
