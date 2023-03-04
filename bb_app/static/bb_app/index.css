@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Arnold;
+    src: url(Arnold.esa);
+}
+
 h1{
     color: red;
 }
