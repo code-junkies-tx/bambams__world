@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Arnold;
+    src: url(Arnold.esa);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px 4px rgb(79, 78, 78);
+}
+
+.bbImagesDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.mainDiv{
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-color: lightpink;
+}

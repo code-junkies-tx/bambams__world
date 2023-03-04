@@ -7,14 +7,18 @@
 {% endblock %}
 
 {% block css_styles %}
-    <link rel="stylesheet" href="{% static "bb_app/index.css" %}">
+    <link rel="stylesheet" href="{% static "bb_app/css/index.css" %}">
 {% endblock %}
 
 
 {% block context %}
     <div class="mainDiv">
         <h1>BamBam's World</h1>
-        <img src="{% static 'images/bb-img.jpeg' %}" alt="bb-img">
+        <div class="bbImagesDiv">
+            <img src="{% static 'images/bb-img.jpeg' %}" alt="bb-img">
+            <img src="{% static 'images/bb-img.jpeg' %}" alt="bb-img">
+            <img src="{% static 'images/bb-img.jpeg' %}" alt="bb-img">
+        </div>
     </div>
 
 {% endblock %}
