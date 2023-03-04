@@ -6,6 +6,7 @@
 h1{
     color: white;
     text-align: center;
+    margin-top: 50px;
 }
 
 img{
@@ -18,12 +19,12 @@ img{
 .bbImagesDiv{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .mainDiv{
     width: 80%;
-    margin: auto;
+    margin: 0 auto 0 auto;
 }
 
 body {
